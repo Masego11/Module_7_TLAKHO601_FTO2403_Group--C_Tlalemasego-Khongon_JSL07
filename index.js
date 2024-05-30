@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
     //  🚨 Close the modal when the close button is clicked
     closeModal.addEventListener('click', function () {
       modal.style.display = 'none'; //set modal display to none
-      document.getElementById('modal').style.cursor ='pointer';
+      
       
     });
   });
