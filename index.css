@@ -96,6 +96,16 @@ h1, .modal-content h2, .modal-content p {
 
 .close {
   color: #dc7f5f;
+  cursor: pointer; /*changed cursor to pointer */
+  border: 2px solid #659f8f ;/*added a border to my button */
+  border-radius: 5px; /*rounded the border edges */
+
+}
+
+.close:hover{
+  background-color:#5d5f5e; /* background color to change to when hovered on */
+  border-color: #dc7f5f; /* Border color to change when hovered on */
+
 }
 
 /* Adding a fancy border to the certificate content */
